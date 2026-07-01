@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class Job {
+public class JobData {
     private String jobName;
     private JobType jobType;
 }

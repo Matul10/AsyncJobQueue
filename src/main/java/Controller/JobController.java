@@ -1,9 +1,7 @@
 package Controller;
 
-import DTO.Job;
+import DTO.JobData;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -13,8 +11,8 @@ import org.springframework.web.bind.annotation.*;
 public class JobController {
 
     @PostMapping("/add")
-    public void addJob(@RequestBody Job job){
-        log.info("Received job {} ", job);
+    public void addJob(@RequestBody JobData jobData){
+        log.info("Received job {} ", jobData);
         try{
 
         }catch(Exception e){
