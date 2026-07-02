@@ -1,6 +1,6 @@
-package DTO;
+package com.example.JobQueue.demo.DTO;
 
-import Enums.JobType;
+import com.example.JobQueue.demo.Enums.JobType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

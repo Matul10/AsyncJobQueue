@@ -1,4 +1,4 @@
-package Enums;
+package com.example.JobQueue.demo.Enums;
 
 public enum JobStatus {
     PENDING,

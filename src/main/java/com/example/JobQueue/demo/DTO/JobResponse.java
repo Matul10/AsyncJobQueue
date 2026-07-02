@@ -1,9 +1,9 @@
-package DTO;
+package com.example.JobQueue.demo.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import model.Job;
+import com.example.JobQueue.demo.model.Job;
 
 @AllArgsConstructor
 @NoArgsConstructor
